@@ -25,7 +25,8 @@ import random
 import csv
 import time
 
-KEY = "RGAPI-4b89e214-7383-43ee-9809-8e4909f9749f"
+#get your own key
+KEY = "KEY HERE"
 
 #get a dictionary of champ_ids to champ names
 version = requests.get('https://ddragon.leagueoflegends.com/api/versions.json').json()[0]
